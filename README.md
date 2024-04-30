@@ -1,21 +1,16 @@
 # Language
 
 ## Objetivo 🎯
-Criar uma conta no Azure e criar um modelo de previsão com seus devidos pontos de extremidade configurados.
+Analisar sentimento com Language Studio no Azure AI
 
 ### Instruções (PT/BR) 
 1. Crie sua conta no Portal da Azure pelo link: (https://azure.microsoft.com/pt-br);
 2. Clique em **Criar um recurso**;
 3. Clique em **IA + Machine Learning**;
-4. Clique em **Azure Machine Learning**;
-5. Clique em **Criar**;
-6. Preencha os espaços;
-7. Clique em **Examinar + criar**;
-8. Clique em **ML automatizado**;
-9. Clique em **Novo trabalho de ML automatizado**;
-10. Crie ativo de dados;
-11. Realize configurações de tarefas;
-12. Clique em **Examinar**;
-13. Clique em **Modelos**;
-14. Clique em **Pontos de extremidades**;
-15. Clique em **Testar**.
+4. Clique em **"Criar" em Language service**;
+5. Preencha os espaços;
+6. Clique em **Examinar + criar**;
+7. Acesse o link: (https://language.cognitive.azure.com);
+8. Clique em **Classify text**;
+9. Clique em **Analyze sentiment and opinions**;
+10. Escolha o texto que deseja analisar.
