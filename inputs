@@ -1,3 +1,117 @@
 TEXTO
 On the first day of her trip, Diane visited the Golden Gate Bridge. This red suspension bridge measures 1.7 miles in length. Diane and her friends did not walk across the bridge. However, they viewed it from the Golden Gate National Recreation Area, which offers hiking trails, picnicking areas, and presents spectacular views of the bridge and city. Diane and her friends made sure to take a group photograph here, featuring the bridge in the background.
 Disponível em (https://lingua.com/pt/ingles/leitura/san-francisco/)
+
+JSON:
+{
+    "documents": [
+        {
+            "id": "id__629",
+            "sentiment": "neutral",
+            "confidenceScores": {
+                "positive": 0.15,
+                "neutral": 0.75,
+                "negative": 0.1
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.91,
+                        "negative": 0.03
+                    },
+                    "offset": 0,
+                    "length": 68,
+                    "text": "On the first day of her trip, Diane visited the Golden Gate Bridge. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 68,
+                    "length": 57,
+                    "text": "This red suspension bridge measures 1.7 miles in length. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.56,
+                        "negative": 0.42
+                    },
+                    "offset": 125,
+                    "length": 54,
+                    "text": "Diane and her friends did not walk across the bridge. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.48,
+                        "neutral": 0.5,
+                        "negative": 0.02
+                    },
+                    "offset": 179,
+                    "length": 172,
+                    "text": "However, they viewed it from the Golden Gate National Recreation Area, which offers hiking trails, picnicking areas, and presents spectacular views of the bridge and city. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 321,
+                            "length": 5,
+                            "text": "views",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 309,
+                            "length": 11,
+                            "text": "spectacular",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.17,
+                        "neutral": 0.82,
+                        "negative": 0.01
+                    },
+                    "offset": 351,
+                    "length": 104,
+                    "text": "Diane and her friends made sure to take a group photograph here, featuring the bridge in the background.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
